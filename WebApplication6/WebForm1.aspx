@@ -10,6 +10,10 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal">
+                <asp:ListItem>123</asp:ListItem>
+                <asp:ListItem>456</asp:ListItem>
+            </asp:RadioButtonList>
             <asp:DropDownList ID="ddl_Category" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddl_Category_SelectedIndexChanged"></asp:DropDownList>
             <asp:DropDownList ID="ddl_Food" runat="server"></asp:DropDownList>
             <asp:Button ID="Button1" runat="server" Text="Button" PostBackUrl="~/WebForm2.aspx" />
