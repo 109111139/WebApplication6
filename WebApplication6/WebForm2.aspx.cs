@@ -11,7 +11,7 @@ namespace WebApplication6
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = Request.Form.Get("RadioButtonList1") + Request.Form.Get("ddl_Category") + Request.Form.Get("ddl_Food");                
+            Label1.Text = Request.Form.Get("RadioButtonList1") + "<br/>" + Request.Form.Get("ddl_Category") + Request.Form.Get("ddl_Food");                
         }
     }
 }
